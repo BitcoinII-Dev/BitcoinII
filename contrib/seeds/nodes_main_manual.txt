@@ -1,0 +1,2 @@
+bitcoinii.ddns.net:8338
+bitcoinii.ddns.net:53
