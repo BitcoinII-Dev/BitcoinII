@@ -2,7 +2,7 @@
   <a href="https://github.com/BitcoinII-Dev/BitcoinII/releases">
     <img src="https://img.shields.io/github/downloads/BitcoinII-Dev/BitcoinII/total?style=for-the-badge" alt="Downloads">
   </a>
-  <a href="https://Bitcoin-II.org>
+  <a href="https://Bitcoin-II.org">
     <img src="https://img.shields.io/badge/Website-Online-brightgreen?logo=google-chrome&style=for-the-badge" alt="Website">
   </a>
   <a href="https://t.me/+mc19GB_d5yo3Yjg5">
