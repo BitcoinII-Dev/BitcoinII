@@ -148,6 +148,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
+        vSeeds.emplace_back("dnsseed.bitcoinII.network.");
         vSeeds.emplace_back("bitcoinII.ddns.net."); // Original BitcoinII seed server
         
 
@@ -182,6 +183,11 @@ public:
                 { 1900, uint256S("0x000000004e4b848131fb1e3615d0c4ca2f1a613e22e02bf4cacfa31b11dd4260")},
                 { 2000, uint256S("0x0000000092460949b8686786acea9333d407bce955aff6f6a5f8d16d29644ffc")},
                 { 2016, uint256S("0x000000001477dda4e29a1333f4ed3702bca0040fada8d8254ce02f180873e182")},
+                { 10000, uint256S("0x000000000034a7f5c7100e911ab43ce02ac228c9e8ac2ae9fe7a1eb61914cdc0")},
+                { 15000, uint256S("0x0000000000048dbb85404da5d97fbdb9b5c15dcd9b41239d49a6ff3f13d2b0b8")},
+                { 20000, uint256S("0x0000000000009d769d62468e90627f274ef7d83f3f99ce6bfc128991cd57a53a")},
+                { 25000, uint256S("0x00000000000000b393c072088fd2ef8bcdacc05e15fe937b8b09ca1241877a7f")},
+                { 30000, uint256S("0x000000000000001fc3181c713894a3e1f92b2b74b37a01dac267e58e2d53669c")},
                 
             }
         };
