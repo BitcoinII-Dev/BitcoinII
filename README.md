@@ -19,8 +19,6 @@
 BitcoinII Core integration/staging tree
 =====================================
 
-https://Bitcoin-II.org
-
 
 What is BitcoinII Core?
 ---------------------
