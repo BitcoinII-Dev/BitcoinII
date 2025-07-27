@@ -5,9 +5,6 @@
   <a href="https://t.me/+mc19GB_d5yo3Yjg5">
     <img src="https://img.shields.io/badge/Telegram-Join%20Chat-blue?logo=telegram&style=for-the-badge" alt="Telegram">
   </a>
-  <a href="https://discord.gg/1390803064033906820">
-    <img src="https://img.shields.io/discord/123456789012345678?label=Discord&logo=discord&style=for-the-badge" alt="Discord">
-  </a>
   <a href="https://reddit.com/r/BitcoinII">
     <img src="https://img.shields.io/reddit/subreddit-subscribers/BitcoinII?label=Reddit&style=for-the-badge" alt="Reddit">
   </a>
