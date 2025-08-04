@@ -1,11 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Bitcoin
 Upstream-Contact: Satoshi Nakamoto <satoshin@gmx.com>
- irc://#bitcoinII-core-dev@libera.chat
-Source: https://github.com/bitcoinII/bitcoinII
+ irc://#bitcoin-core-dev@libera.chat
+Source: https://github.com/bitcoin-II/bitcoinII-core/
 
 Files: *
 Copyright: 2009-2024, Bitcoin Core Developers
+Copyright: 2009-2025, BitcoinII Core Developers
 License: Expat
 Comment: The Bitcoin Core Developers encompasses all contributors to the
          project, listed in the release notes or the git log.
@@ -72,7 +73,7 @@ Files: src/qt/res/icons/bitcoinII.*
        src/qt/res/src/bitcoinII.svg
 Copyright: Bitboy, Jonas Schnelli
 License: public-domain
-Comment: Site: https://bitcoinIItalk.org/?topic=1756.0
+Comment: Site: https://bitcointalk.org/?topic=1756.0
 
 Files: src/qt/res/icons/proxy.png
        src/qt/res/src/proxy.svg
