@@ -148,7 +148,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("dnsseed.bitcoinII.network.");
+        vSeeds.emplace_back("dnsseed.bitcoin-ii.org.");
         vSeeds.emplace_back("bitcoinII.ddns.net."); // Original BitcoinII seed server
         
 
@@ -188,7 +188,7 @@ public:
                 { 20000, uint256S("0x0000000000009d769d62468e90627f274ef7d83f3f99ce6bfc128991cd57a53a")},
                 { 25000, uint256S("0x00000000000000b393c072088fd2ef8bcdacc05e15fe937b8b09ca1241877a7f")},
                 { 30000, uint256S("0x000000000000001fc3181c713894a3e1f92b2b74b37a01dac267e58e2d53669c")},
-                
+                { 49000, uint256S("0x000000000000000003016ffca13aaee2ac07ea3edb81e7e612ccce9c98c7ca04")},
             }
         };
 
@@ -197,10 +197,10 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 50 000000001edb1b92b898111135767e3e4b86eeac0ada772ffca8c4f00302105b
-            .nTime    = 1750615060,
-            .nTxCount = 266,
-            .dTxRate  = 0.0355,
+            // Data from RPC: getchaintxstats 4096 00000000000000001984b0fe236bec1ec49a14a01d8d340c31cae864d96a3b9b
+            .nTime    = 1764034154,
+            .nTxCount = 82281,
+            .dTxRate  = 0.004174125833742384,
         };
     }
 };
