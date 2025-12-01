@@ -1,4 +1,4 @@
-name: macOS arm64 .dmg (v27.1.0, full features)
+name: macOS arm64 .dmg (v0.27.1, full features)
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-14  # Apple Silicon runner
 
     env:
-      TARGET_TAG: v27.1.0
+      TARGET_TAG: v0.27.1
 
     steps:
       - name: Checkout repository
@@ -49,7 +49,7 @@ jobs:
           # Make Qt5 tools visible
           echo "$(brew --prefix qt@5)/bin" >> "$GITHUB_PATH"
 
-      - name: Configure BitcoinII-Core (v27.1.0, BDB + extras)
+      - name: Configure BitcoinII-Core (v0.27.1, BDB + extras)
         run: |
           ./autogen.sh
 
@@ -92,7 +92,7 @@ jobs:
       - name: Upload .dmg artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: bitcoinII-core-v27.1.0-macos-arm64-dmg
+          name: bitcoinII-core-v0.27.1-macos-arm64-dmg
           path: |
             *.dmg
             src/qt/*.dmg
