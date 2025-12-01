@@ -38,7 +38,6 @@ jobs:
             pkg-config \
             boost \
             libevent \
-            miniupnpc \
             libnatpmp \
             qrencode \
             sqlite \
@@ -65,7 +64,6 @@ jobs:
           ./configure \
             --with-gui=qt5 \
             --enable-zmq \
-            --enable-upnp-default \
             --enable-natpmp \
             --enable-reduce-exports \
             --with-boost="$(brew --prefix boost)" \
